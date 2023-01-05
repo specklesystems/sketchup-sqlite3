@@ -13,7 +13,7 @@ rbsqlite3_new(VALUE klass, VALUE pathValue)
 	const char* path;
 	path = StringValuePtr(pathValue);
 
-	SQLite::Database* db = new SQLite::Database(path);
+	SQLite::Database* db = new SQLite::Database(path, SQLITE_OPEN_READWRITE);
 
 	VALUE obj = Data_Wrap_Struct(klass, NULL, NULL, db);
 	rb_iv_set(obj, "@path", rb_str_new2(path));
