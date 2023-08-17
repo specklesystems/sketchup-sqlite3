@@ -145,6 +145,7 @@ extern "C" {
 
 
 typedef VALUE(*ruby_method)(...);
+extern "C"
 void Init_sqlite3()
 {
 	// Init modules
@@ -160,21 +161,25 @@ void Init_sqlite3()
 	rb_define_method(speckle_connector_sqlite3_database, "table_exist?", (ruby_method)rbsqlite3_table_exist, 1);
 }
 
+extern "C"
 void Init_sqlite3_20()
 {
 	Init_sqlite3();
 }
 
+extern "C"
 void Init_sqlite3_22()
 {
 	Init_sqlite3();
 }
 
+extern "C"
 void Init_sqlite3_25()
 {
 	Init_sqlite3();
 }
 
+extern "C"
 void Init_sqlite3_27()
 {
 	Init_sqlite3();

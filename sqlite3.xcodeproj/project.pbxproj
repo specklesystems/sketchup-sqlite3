@@ -12,6 +12,90 @@
 		33CDE7B918270A4800F7C6E8 /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
 		33CDE7BA18270A4800F7C6E8 /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
 		33CDE7BB18270A4800F7C6E8 /* RubyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B818270A4800F7C6E8 /* RubyUtils.h */; };
+		6E7ED1F72A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
+		6E7ED1F82A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
+		6E7ED1F92A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
+		6E7ED1FA2A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
+		6E7ED1FB2A8CFFEF00E4719F /* Savepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */; };
+		6E7ED1FC2A8CFFEF00E4719F /* Savepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */; };
+		6E7ED1FD2A8CFFEF00E4719F /* Savepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */; };
+		6E7ED1FE2A8CFFEF00E4719F /* Savepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */; };
+		6E7ED1FF2A8CFFEF00E4719F /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E42A8CFFEF00E4719F /* Column.cpp */; };
+		6E7ED2002A8CFFEF00E4719F /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E42A8CFFEF00E4719F /* Column.cpp */; };
+		6E7ED2012A8CFFEF00E4719F /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E42A8CFFEF00E4719F /* Column.cpp */; };
+		6E7ED2022A8CFFEF00E4719F /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E42A8CFFEF00E4719F /* Column.cpp */; };
+		6E7ED2032A8CFFEF00E4719F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E52A8CFFEF00E4719F /* Utils.h */; };
+		6E7ED2042A8CFFEF00E4719F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E52A8CFFEF00E4719F /* Utils.h */; };
+		6E7ED2052A8CFFEF00E4719F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E52A8CFFEF00E4719F /* Utils.h */; };
+		6E7ED2062A8CFFEF00E4719F /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E52A8CFFEF00E4719F /* Utils.h */; };
+		6E7ED2072A8CFFEF00E4719F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */; };
+		6E7ED2082A8CFFEF00E4719F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */; };
+		6E7ED2092A8CFFEF00E4719F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */; };
+		6E7ED20A2A8CFFEF00E4719F /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */; };
+		6E7ED20B2A8CFFEF00E4719F /* Savepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */; };
+		6E7ED20C2A8CFFEF00E4719F /* Savepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */; };
+		6E7ED20D2A8CFFEF00E4719F /* Savepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */; };
+		6E7ED20E2A8CFFEF00E4719F /* Savepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */; };
+		6E7ED20F2A8CFFEF00E4719F /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */; };
+		6E7ED2102A8CFFEF00E4719F /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */; };
+		6E7ED2112A8CFFEF00E4719F /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */; };
+		6E7ED2122A8CFFEF00E4719F /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */; };
+		6E7ED2132A8CFFEF00E4719F /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */; };
+		6E7ED2142A8CFFEF00E4719F /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */; };
+		6E7ED2152A8CFFEF00E4719F /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */; };
+		6E7ED2162A8CFFEF00E4719F /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */; };
+		6E7ED2172A8CFFEF00E4719F /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */; };
+		6E7ED2182A8CFFEF00E4719F /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */; };
+		6E7ED2192A8CFFEF00E4719F /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */; };
+		6E7ED21A2A8CFFEF00E4719F /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */; };
+		6E7ED21B2A8CFFEF00E4719F /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EB2A8CFFEF00E4719F /* Statement.h */; };
+		6E7ED21C2A8CFFEF00E4719F /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EB2A8CFFEF00E4719F /* Statement.h */; };
+		6E7ED21D2A8CFFEF00E4719F /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EB2A8CFFEF00E4719F /* Statement.h */; };
+		6E7ED21E2A8CFFEF00E4719F /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EB2A8CFFEF00E4719F /* Statement.h */; };
+		6E7ED21F2A8CFFEF00E4719F /* Backup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EC2A8CFFEF00E4719F /* Backup.h */; };
+		6E7ED2202A8CFFEF00E4719F /* Backup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EC2A8CFFEF00E4719F /* Backup.h */; };
+		6E7ED2212A8CFFEF00E4719F /* Backup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EC2A8CFFEF00E4719F /* Backup.h */; };
+		6E7ED2222A8CFFEF00E4719F /* Backup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EC2A8CFFEF00E4719F /* Backup.h */; };
+		6E7ED2232A8CFFEF00E4719F /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */; };
+		6E7ED2242A8CFFEF00E4719F /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */; };
+		6E7ED2252A8CFFEF00E4719F /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */; };
+		6E7ED2262A8CFFEF00E4719F /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */; };
+		6E7ED2272A8CFFEF00E4719F /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */; };
+		6E7ED2282A8CFFEF00E4719F /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */; };
+		6E7ED2292A8CFFEF00E4719F /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */; };
+		6E7ED22A2A8CFFEF00E4719F /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */; };
+		6E7ED22B2A8CFFEF00E4719F /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EF2A8CFFEF00E4719F /* Column.h */; };
+		6E7ED22C2A8CFFEF00E4719F /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EF2A8CFFEF00E4719F /* Column.h */; };
+		6E7ED22D2A8CFFEF00E4719F /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EF2A8CFFEF00E4719F /* Column.h */; };
+		6E7ED22E2A8CFFEF00E4719F /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EF2A8CFFEF00E4719F /* Column.h */; };
+		6E7ED22F2A8CFFEF00E4719F /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F02A8CFFEF00E4719F /* Database.h */; };
+		6E7ED2302A8CFFEF00E4719F /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F02A8CFFEF00E4719F /* Database.h */; };
+		6E7ED2312A8CFFEF00E4719F /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F02A8CFFEF00E4719F /* Database.h */; };
+		6E7ED2322A8CFFEF00E4719F /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F02A8CFFEF00E4719F /* Database.h */; };
+		6E7ED2332A8CFFEF00E4719F /* Backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */; };
+		6E7ED2342A8CFFEF00E4719F /* Backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */; };
+		6E7ED2352A8CFFEF00E4719F /* Backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */; };
+		6E7ED2362A8CFFEF00E4719F /* Backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */; };
+		6E7ED2372A8CFFEF00E4719F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */; };
+		6E7ED2382A8CFFEF00E4719F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */; };
+		6E7ED2392A8CFFEF00E4719F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */; };
+		6E7ED23A2A8CFFEF00E4719F /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */; };
+		6E7ED23B2A8CFFEF00E4719F /* ExecuteMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */; };
+		6E7ED23C2A8CFFEF00E4719F /* ExecuteMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */; };
+		6E7ED23D2A8CFFEF00E4719F /* ExecuteMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */; };
+		6E7ED23E2A8CFFEF00E4719F /* ExecuteMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */; };
+		6E7ED23F2A8CFFEF00E4719F /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */; };
+		6E7ED2402A8CFFEF00E4719F /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */; };
+		6E7ED2412A8CFFEF00E4719F /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */; };
+		6E7ED2422A8CFFEF00E4719F /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */; };
+		6E7ED2432A8CFFEF00E4719F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F52A8CFFEF00E4719F /* Exception.h */; };
+		6E7ED2442A8CFFEF00E4719F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F52A8CFFEF00E4719F /* Exception.h */; };
+		6E7ED2452A8CFFEF00E4719F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F52A8CFFEF00E4719F /* Exception.h */; };
+		6E7ED2462A8CFFEF00E4719F /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F52A8CFFEF00E4719F /* Exception.h */; };
+		6E7ED2472A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
+		6E7ED2482A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
+		6E7ED2492A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
+		6E7ED24A2A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
 		E939EB2221120EE20023B67B /* rbsqlite3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7AF182705EB00F7C6E8 /* rbsqlite3.cpp */; };
 		E939EB2321120EE20023B67B /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
 		E939EB2821120EE20023B67B /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
@@ -35,6 +119,27 @@
 		33CDE7B618270A4800F7C6E8 /* RubyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyLib.h; sourceTree = "<group>"; };
 		33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RubyUtils.cpp; sourceTree = "<group>"; };
 		33CDE7B818270A4800F7C6E8 /* RubyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyUtils.h; sourceTree = "<group>"; };
+		6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariadicBind.h; sourceTree = "<group>"; };
+		6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Savepoint.h; sourceTree = "<group>"; };
+		6E7ED1E42A8CFFEF00E4719F /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Column.cpp; sourceTree = "<group>"; };
+		6E7ED1E52A8CFFEF00E4719F /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sqlite3.c; sourceTree = "<group>"; };
+		6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Savepoint.cpp; sourceTree = "<group>"; };
+		6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Exception.cpp; sourceTree = "<group>"; };
+		6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQLiteCpp.h; sourceTree = "<group>"; };
+		6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Statement.cpp; sourceTree = "<group>"; };
+		6E7ED1EB2A8CFFEF00E4719F /* Statement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Statement.h; sourceTree = "<group>"; };
+		6E7ED1EC2A8CFFEF00E4719F /* Backup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Backup.h; sourceTree = "<group>"; };
+		6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assertion.h; sourceTree = "<group>"; };
+		6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Database.cpp; sourceTree = "<group>"; };
+		6E7ED1EF2A8CFFEF00E4719F /* Column.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Column.h; sourceTree = "<group>"; };
+		6E7ED1F02A8CFFEF00E4719F /* Database.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Database.h; sourceTree = "<group>"; };
+		6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Backup.cpp; sourceTree = "<group>"; };
+		6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sqlite3.h; sourceTree = "<group>"; };
+		6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExecuteMany.h; sourceTree = "<group>"; };
+		6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
+		6E7ED1F52A8CFFEF00E4719F /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		6E7ED1F62A8CFFEF00E4719F /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
 		CE1590E518479EAB0084B06D /* sqlite3_exports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sqlite3_exports.txt; sourceTree = "<group>"; };
 		CE1590E61847A5A20084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/2.0/Ruby.framework"; sourceTree = "<group>"; };
 		CE1590E81847A5F10084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/1.8/Ruby.framework"; sourceTree = "<group>"; };
@@ -85,6 +190,7 @@
 		33CDE5DA182703B100F7C6E8 = {
 			isa = PBXGroup;
 			children = (
+				6E7ED1E12A8CFFEF00E4719F /* SQLiteCpp */,
 				33CDE7B518270A4800F7C6E8 /* RubyUtils */,
 				33CDE7AF182705EB00F7C6E8 /* rbsqlite3.cpp */,
 				CE1590E518479EAB0084B06D /* sqlite3_exports.txt */,
@@ -125,6 +231,35 @@
 			);
 			name = RubyUtils;
 			path = src/RubyUtils;
+			sourceTree = "<group>";
+		};
+		6E7ED1E12A8CFFEF00E4719F /* SQLiteCpp */ = {
+			isa = PBXGroup;
+			children = (
+				6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */,
+				6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */,
+				6E7ED1E42A8CFFEF00E4719F /* Column.cpp */,
+				6E7ED1E52A8CFFEF00E4719F /* Utils.h */,
+				6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */,
+				6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */,
+				6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */,
+				6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */,
+				6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */,
+				6E7ED1EB2A8CFFEF00E4719F /* Statement.h */,
+				6E7ED1EC2A8CFFEF00E4719F /* Backup.h */,
+				6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */,
+				6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */,
+				6E7ED1EF2A8CFFEF00E4719F /* Column.h */,
+				6E7ED1F02A8CFFEF00E4719F /* Database.h */,
+				6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */,
+				6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */,
+				6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */,
+				6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */,
+				6E7ED1F52A8CFFEF00E4719F /* Exception.h */,
+				6E7ED1F62A8CFFEF00E4719F /* Transaction.h */,
+			);
+			name = SQLiteCpp;
+			path = src/SQLiteCpp;
 			sourceTree = "<group>";
 		};
 		CE405E9418476E2800A77187 /* Ruby 2.0 */ = {
@@ -175,8 +310,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED22E2A8CFFEF00E4719F /* Column.h in Headers */,
+				6E7ED21E2A8CFFEF00E4719F /* Statement.h in Headers */,
+				6E7ED1FA2A8CFFEF00E4719F /* VariadicBind.h in Headers */,
+				6E7ED24A2A8CFFEF00E4719F /* Transaction.h in Headers */,
+				6E7ED23E2A8CFFEF00E4719F /* ExecuteMany.h in Headers */,
 				33CDE7B918270A4800F7C6E8 /* RubyLib.h in Headers */,
+				6E7ED23A2A8CFFEF00E4719F /* sqlite3.h in Headers */,
+				6E7ED2262A8CFFEF00E4719F /* Assertion.h in Headers */,
+				6E7ED2162A8CFFEF00E4719F /* SQLiteCpp.h in Headers */,
+				6E7ED2222A8CFFEF00E4719F /* Backup.h in Headers */,
+				6E7ED1FE2A8CFFEF00E4719F /* Savepoint.h in Headers */,
+				6E7ED2062A8CFFEF00E4719F /* Utils.h in Headers */,
 				33CDE7BB18270A4800F7C6E8 /* RubyUtils.h in Headers */,
+				6E7ED2462A8CFFEF00E4719F /* Exception.h in Headers */,
+				6E7ED2322A8CFFEF00E4719F /* Database.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,8 +332,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED22C2A8CFFEF00E4719F /* Column.h in Headers */,
+				6E7ED21C2A8CFFEF00E4719F /* Statement.h in Headers */,
+				6E7ED1F82A8CFFEF00E4719F /* VariadicBind.h in Headers */,
+				6E7ED2482A8CFFEF00E4719F /* Transaction.h in Headers */,
+				6E7ED23C2A8CFFEF00E4719F /* ExecuteMany.h in Headers */,
 				E939EB2821120EE20023B67B /* RubyLib.h in Headers */,
+				6E7ED2382A8CFFEF00E4719F /* sqlite3.h in Headers */,
+				6E7ED2242A8CFFEF00E4719F /* Assertion.h in Headers */,
+				6E7ED2142A8CFFEF00E4719F /* SQLiteCpp.h in Headers */,
+				6E7ED2202A8CFFEF00E4719F /* Backup.h in Headers */,
+				6E7ED1FC2A8CFFEF00E4719F /* Savepoint.h in Headers */,
+				6E7ED2042A8CFFEF00E4719F /* Utils.h in Headers */,
 				E939EB2921120EE20023B67B /* RubyUtils.h in Headers */,
+				6E7ED2442A8CFFEF00E4719F /* Exception.h in Headers */,
+				6E7ED2302A8CFFEF00E4719F /* Database.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,8 +354,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED22B2A8CFFEF00E4719F /* Column.h in Headers */,
+				6E7ED21B2A8CFFEF00E4719F /* Statement.h in Headers */,
+				6E7ED1F72A8CFFEF00E4719F /* VariadicBind.h in Headers */,
+				6E7ED2472A8CFFEF00E4719F /* Transaction.h in Headers */,
+				6E7ED23B2A8CFFEF00E4719F /* ExecuteMany.h in Headers */,
 				E99766C6252CB0AD00B1D8E9 /* RubyLib.h in Headers */,
+				6E7ED2372A8CFFEF00E4719F /* sqlite3.h in Headers */,
+				6E7ED2232A8CFFEF00E4719F /* Assertion.h in Headers */,
+				6E7ED2132A8CFFEF00E4719F /* SQLiteCpp.h in Headers */,
+				6E7ED21F2A8CFFEF00E4719F /* Backup.h in Headers */,
+				6E7ED1FB2A8CFFEF00E4719F /* Savepoint.h in Headers */,
+				6E7ED2032A8CFFEF00E4719F /* Utils.h in Headers */,
 				E99766C7252CB0AD00B1D8E9 /* RubyUtils.h in Headers */,
+				6E7ED2432A8CFFEF00E4719F /* Exception.h in Headers */,
+				6E7ED22F2A8CFFEF00E4719F /* Database.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +376,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED22D2A8CFFEF00E4719F /* Column.h in Headers */,
+				6E7ED21D2A8CFFEF00E4719F /* Statement.h in Headers */,
+				6E7ED1F92A8CFFEF00E4719F /* VariadicBind.h in Headers */,
+				6E7ED2492A8CFFEF00E4719F /* Transaction.h in Headers */,
+				6E7ED23D2A8CFFEF00E4719F /* ExecuteMany.h in Headers */,
 				E9EA8ACD1DAFC10D0029551B /* RubyLib.h in Headers */,
+				6E7ED2392A8CFFEF00E4719F /* sqlite3.h in Headers */,
+				6E7ED2252A8CFFEF00E4719F /* Assertion.h in Headers */,
+				6E7ED2152A8CFFEF00E4719F /* SQLiteCpp.h in Headers */,
+				6E7ED2212A8CFFEF00E4719F /* Backup.h in Headers */,
+				6E7ED1FD2A8CFFEF00E4719F /* Savepoint.h in Headers */,
+				6E7ED2052A8CFFEF00E4719F /* Utils.h in Headers */,
 				E9EA8ACE1DAFC10D0029551B /* RubyUtils.h in Headers */,
+				6E7ED2452A8CFFEF00E4719F /* Exception.h in Headers */,
+				6E7ED2312A8CFFEF00E4719F /* Database.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,8 +500,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED20E2A8CFFEF00E4719F /* Savepoint.cpp in Sources */,
+				6E7ED2122A8CFFEF00E4719F /* Exception.cpp in Sources */,
+				6E7ED2422A8CFFEF00E4719F /* Transaction.cpp in Sources */,
+				6E7ED22A2A8CFFEF00E4719F /* Database.cpp in Sources */,
+				6E7ED2022A8CFFEF00E4719F /* Column.cpp in Sources */,
+				6E7ED2362A8CFFEF00E4719F /* Backup.cpp in Sources */,
 				33CDE7B0182705EB00F7C6E8 /* rbsqlite3.cpp in Sources */,
 				33CDE7BA18270A4800F7C6E8 /* RubyUtils.cpp in Sources */,
+				6E7ED20A2A8CFFEF00E4719F /* sqlite3.c in Sources */,
+				6E7ED21A2A8CFFEF00E4719F /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,8 +517,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED20C2A8CFFEF00E4719F /* Savepoint.cpp in Sources */,
+				6E7ED2102A8CFFEF00E4719F /* Exception.cpp in Sources */,
+				6E7ED2402A8CFFEF00E4719F /* Transaction.cpp in Sources */,
+				6E7ED2282A8CFFEF00E4719F /* Database.cpp in Sources */,
+				6E7ED2002A8CFFEF00E4719F /* Column.cpp in Sources */,
+				6E7ED2342A8CFFEF00E4719F /* Backup.cpp in Sources */,
 				E939EB2221120EE20023B67B /* rbsqlite3.cpp in Sources */,
 				E939EB2321120EE20023B67B /* RubyUtils.cpp in Sources */,
+				6E7ED2082A8CFFEF00E4719F /* sqlite3.c in Sources */,
+				6E7ED2182A8CFFEF00E4719F /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,8 +534,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED20B2A8CFFEF00E4719F /* Savepoint.cpp in Sources */,
+				6E7ED20F2A8CFFEF00E4719F /* Exception.cpp in Sources */,
+				6E7ED23F2A8CFFEF00E4719F /* Transaction.cpp in Sources */,
+				6E7ED2272A8CFFEF00E4719F /* Database.cpp in Sources */,
+				6E7ED1FF2A8CFFEF00E4719F /* Column.cpp in Sources */,
+				6E7ED2332A8CFFEF00E4719F /* Backup.cpp in Sources */,
 				E99766C1252CB0AD00B1D8E9 /* rbsqlite3.cpp in Sources */,
 				E99766C2252CB0AD00B1D8E9 /* RubyUtils.cpp in Sources */,
+				6E7ED2072A8CFFEF00E4719F /* sqlite3.c in Sources */,
+				6E7ED2172A8CFFEF00E4719F /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,8 +551,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7ED20D2A8CFFEF00E4719F /* Savepoint.cpp in Sources */,
+				6E7ED2112A8CFFEF00E4719F /* Exception.cpp in Sources */,
+				6E7ED2412A8CFFEF00E4719F /* Transaction.cpp in Sources */,
+				6E7ED2292A8CFFEF00E4719F /* Database.cpp in Sources */,
+				6E7ED2012A8CFFEF00E4719F /* Column.cpp in Sources */,
+				6E7ED2352A8CFFEF00E4719F /* Backup.cpp in Sources */,
 				E9EA8AC81DAFC10D0029551B /* rbsqlite3.cpp in Sources */,
 				E9EA8AC91DAFC10D0029551B /* RubyUtils.cpp in Sources */,
+				6E7ED2092A8CFFEF00E4719F /* sqlite3.c in Sources */,
+				6E7ED2192A8CFFEF00E4719F /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
