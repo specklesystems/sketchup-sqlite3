@@ -10,8 +10,8 @@
  */
 #pragma once
 
-#include <Exception.h>
-#include <Utils.h> // SQLITECPP_PURE_FUNC
+#include "Exception.h"
+#include "Utils.h" // SQLITECPP_PURE_FUNC
 
 #include <string>
 #include <map>

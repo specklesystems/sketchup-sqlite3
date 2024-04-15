@@ -1,7 +1,7 @@
-#include "Database.h"
+#include "SQLiteCpp/Database.h"
 #include "RubyUtils/RubyUtils.h"
 #include "ruby.h"
-#include "sqlite3.h"
+#include "SQLiteCpp/sqlite3.h"
 
 VALUE
 rbsqlite3_new(VALUE klass, VALUE pathValue)
@@ -181,6 +181,12 @@ void Init_sqlite3_25()
 
 extern "C"
 void Init_sqlite3_27()
+{
+	Init_sqlite3();
+}
+
+extern "C"
+void Init_sqlite3_32()
 {
 	Init_sqlite3();
 }

@@ -11,10 +11,10 @@
  * copy at http://opensource.org/licenses/MIT)
  */
 
-#include <Assertion.h>
-#include <Database.h>
-#include <Savepoint.h>
-#include <Statement.h>
+#include "Assertion.h"
+#include "Database.h"
+#include "Savepoint.h"
+#include "Statement.h"
 
 namespace SQLite {
 
