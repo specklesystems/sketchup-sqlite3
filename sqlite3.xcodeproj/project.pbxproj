@@ -12,6 +12,31 @@
 		33CDE7B918270A4800F7C6E8 /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
 		33CDE7BA18270A4800F7C6E8 /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
 		33CDE7BB18270A4800F7C6E8 /* RubyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B818270A4800F7C6E8 /* RubyUtils.h */; };
+		6E10E6442BD7AADE00AE1ED4 /* Savepoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E72A8CFFEF00E4719F /* Savepoint.cpp */; };
+		6E10E6452BD7AADE00AE1ED4 /* Exception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E82A8CFFEF00E4719F /* Exception.cpp */; };
+		6E10E6462BD7AADE00AE1ED4 /* Transaction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */; };
+		6E10E6472BD7AADE00AE1ED4 /* Database.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EE2A8CFFEF00E4719F /* Database.cpp */; };
+		6E10E6482BD7AADE00AE1ED4 /* Column.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E42A8CFFEF00E4719F /* Column.cpp */; };
+		6E10E6492BD7AADE00AE1ED4 /* Backup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1F12A8CFFEF00E4719F /* Backup.cpp */; };
+		6E10E64A2BD7AADE00AE1ED4 /* rbsqlite3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7AF182705EB00F7C6E8 /* rbsqlite3.cpp */; };
+		6E10E64B2BD7AADE00AE1ED4 /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
+		6E10E64C2BD7AADE00AE1ED4 /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1E62A8CFFEF00E4719F /* sqlite3.c */; };
+		6E10E64D2BD7AADE00AE1ED4 /* Statement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6E7ED1EA2A8CFFEF00E4719F /* Statement.cpp */; };
+		6E10E6512BD7AADE00AE1ED4 /* Column.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EF2A8CFFEF00E4719F /* Column.h */; };
+		6E10E6522BD7AADE00AE1ED4 /* Statement.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EB2A8CFFEF00E4719F /* Statement.h */; };
+		6E10E6532BD7AADE00AE1ED4 /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
+		6E10E6542BD7AADE00AE1ED4 /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
+		6E10E6552BD7AADE00AE1ED4 /* ExecuteMany.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F32A8CFFEF00E4719F /* ExecuteMany.h */; };
+		6E10E6562BD7AADE00AE1ED4 /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
+		6E10E6572BD7AADE00AE1ED4 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F22A8CFFEF00E4719F /* sqlite3.h */; };
+		6E10E6582BD7AADE00AE1ED4 /* Assertion.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1ED2A8CFFEF00E4719F /* Assertion.h */; };
+		6E10E6592BD7AADE00AE1ED4 /* SQLiteCpp.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E92A8CFFEF00E4719F /* SQLiteCpp.h */; };
+		6E10E65A2BD7AADE00AE1ED4 /* Backup.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1EC2A8CFFEF00E4719F /* Backup.h */; };
+		6E10E65B2BD7AADE00AE1ED4 /* Savepoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */; };
+		6E10E65C2BD7AADE00AE1ED4 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E52A8CFFEF00E4719F /* Utils.h */; };
+		6E10E65D2BD7AADE00AE1ED4 /* RubyUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B818270A4800F7C6E8 /* RubyUtils.h */; };
+		6E10E65E2BD7AADE00AE1ED4 /* Exception.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F52A8CFFEF00E4719F /* Exception.h */; };
+		6E10E65F2BD7AADE00AE1ED4 /* Database.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F02A8CFFEF00E4719F /* Database.h */; };
 		6E7ED1F72A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
 		6E7ED1F82A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
 		6E7ED1F92A8CFFEF00E4719F /* VariadicBind.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */; };
@@ -96,6 +121,7 @@
 		6E7ED2482A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
 		6E7ED2492A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
 		6E7ED24A2A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
+		6EB66A8A2BD7AD220097AA62 /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB66A892BD7AD0D0097AA62 /* Ruby.framework */; };
 		E939EB2221120EE20023B67B /* rbsqlite3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7AF182705EB00F7C6E8 /* rbsqlite3.cpp */; };
 		E939EB2321120EE20023B67B /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
 		E939EB2821120EE20023B67B /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
@@ -119,6 +145,7 @@
 		33CDE7B618270A4800F7C6E8 /* RubyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyLib.h; sourceTree = "<group>"; };
 		33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RubyUtils.cpp; sourceTree = "<group>"; };
 		33CDE7B818270A4800F7C6E8 /* RubyUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RubyUtils.h; sourceTree = "<group>"; };
+		6E10E6632BD7AADE00AE1ED4 /* sqlite3.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = sqlite3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7ED1E22A8CFFEF00E4719F /* VariadicBind.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VariadicBind.h; sourceTree = "<group>"; };
 		6E7ED1E32A8CFFEF00E4719F /* Savepoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Savepoint.h; sourceTree = "<group>"; };
 		6E7ED1E42A8CFFEF00E4719F /* Column.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Column.cpp; sourceTree = "<group>"; };
@@ -140,15 +167,16 @@
 		6E7ED1F42A8CFFEF00E4719F /* Transaction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Transaction.cpp; sourceTree = "<group>"; };
 		6E7ED1F52A8CFFEF00E4719F /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
 		6E7ED1F62A8CFFEF00E4719F /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		6EB66A892BD7AD0D0097AA62 /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = ThirdParty/lib/mac/3.2/Ruby.framework; sourceTree = "<group>"; };
 		CE1590E518479EAB0084B06D /* sqlite3_exports.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = sqlite3_exports.txt; sourceTree = "<group>"; };
-		CE1590E61847A5A20084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/2.0/Ruby.framework"; sourceTree = "<group>"; };
-		CE1590E81847A5F10084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/1.8/Ruby.framework"; sourceTree = "<group>"; };
+		CE1590E61847A5A20084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = ThirdParty/lib/mac/2.0/Ruby.framework; sourceTree = "<group>"; };
+		CE1590E81847A5F10084B06D /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = ThirdParty/lib/mac/1.8/Ruby.framework; sourceTree = "<group>"; };
 		CE6B446F211DA18D006A1F2E /* Ruby.Framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ruby.Framework; sourceTree = "<group>"; };
-		CEC02B3F26C66FC100934F5F /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/2.7-universal/Ruby.framework"; sourceTree = "<group>"; };
+		CEC02B3F26C66FC100934F5F /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty/lib/mac/2.7-universal/Ruby.framework"; sourceTree = "<group>"; };
 		E939EB2D21120EE20023B67B /* sqlite3.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = sqlite3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99766CB252CB0AD00B1D8E9 /* sqlite3.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = sqlite3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9EA8AD21DAFC10D0029551B /* sqlite3.bundle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = sqlite3.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E9EA8AD41DAFC2510029551B /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = "ThirdParty//lib/mac/2.2/Ruby.framework"; sourceTree = "<group>"; };
+		E9EA8AD41DAFC2510029551B /* Ruby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ruby.framework; path = ThirdParty/lib/mac/2.2/Ruby.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +185,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				339559611A0D798C00BB518A /* Ruby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E10E64E2BD7AADE00AE1ED4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB66A8A2BD7AD220097AA62 /* Ruby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +242,7 @@
 				E9EA8AD21DAFC10D0029551B /* sqlite3.bundle */,
 				E939EB2D21120EE20023B67B /* sqlite3.bundle */,
 				E99766CB252CB0AD00B1D8E9 /* sqlite3.bundle */,
+				6E10E6632BD7AADE00AE1ED4 /* sqlite3.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,6 +250,7 @@
 		33CDE7B11827091E00F7C6E8 /* ThirdParty Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6EB66A882BD7ACEF0097AA62 /* Ruby 3.2 */,
 				CEC02B3E26C66F9900934F5F /* Ruby 2.7 */,
 				E939EB2E211211400023B67B /* Ruby 2.5 */,
 				E9EA8AD31DAFC23A0029551B /* Ruby 2.2 */,
@@ -260,6 +298,14 @@
 			);
 			name = SQLiteCpp;
 			path = src/SQLiteCpp;
+			sourceTree = "<group>";
+		};
+		6EB66A882BD7ACEF0097AA62 /* Ruby 3.2 */ = {
+			isa = PBXGroup;
+			children = (
+				6EB66A892BD7AD0D0097AA62 /* Ruby.framework */,
+			);
+			name = "Ruby 3.2";
 			sourceTree = "<group>";
 		};
 		CE405E9418476E2800A77187 /* Ruby 2.0 */ = {
@@ -325,6 +371,28 @@
 				33CDE7BB18270A4800F7C6E8 /* RubyUtils.h in Headers */,
 				6E7ED2462A8CFFEF00E4719F /* Exception.h in Headers */,
 				6E7ED2322A8CFFEF00E4719F /* Database.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E10E6502BD7AADE00AE1ED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E10E6512BD7AADE00AE1ED4 /* Column.h in Headers */,
+				6E10E6522BD7AADE00AE1ED4 /* Statement.h in Headers */,
+				6E10E6532BD7AADE00AE1ED4 /* VariadicBind.h in Headers */,
+				6E10E6542BD7AADE00AE1ED4 /* Transaction.h in Headers */,
+				6E10E6552BD7AADE00AE1ED4 /* ExecuteMany.h in Headers */,
+				6E10E6562BD7AADE00AE1ED4 /* RubyLib.h in Headers */,
+				6E10E6572BD7AADE00AE1ED4 /* sqlite3.h in Headers */,
+				6E10E6582BD7AADE00AE1ED4 /* Assertion.h in Headers */,
+				6E10E6592BD7AADE00AE1ED4 /* SQLiteCpp.h in Headers */,
+				6E10E65A2BD7AADE00AE1ED4 /* Backup.h in Headers */,
+				6E10E65B2BD7AADE00AE1ED4 /* Savepoint.h in Headers */,
+				6E10E65C2BD7AADE00AE1ED4 /* Utils.h in Headers */,
+				6E10E65D2BD7AADE00AE1ED4 /* RubyUtils.h in Headers */,
+				6E10E65E2BD7AADE00AE1ED4 /* Exception.h in Headers */,
+				6E10E65F2BD7AADE00AE1ED4 /* Database.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +482,23 @@
 			productReference = 33CDE5E5182703B200F7C6E8 /* sqlite3.bundle */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		6E10E6422BD7AADE00AE1ED4 /* Ruby 3.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E10E6602BD7AADE00AE1ED4 /* Build configuration list for PBXNativeTarget "Ruby 3.2" */;
+			buildPhases = (
+				6E10E6432BD7AADE00AE1ED4 /* Sources */,
+				6E10E64E2BD7AADE00AE1ED4 /* Frameworks */,
+				6E10E6502BD7AADE00AE1ED4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ruby 3.2";
+			productName = "Hello World";
+			productReference = 6E10E6632BD7AADE00AE1ED4 /* sqlite3.bundle */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		E939EB2021120EE20023B67B /* Ruby 2.5 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E939EB2A21120EE20023B67B /* Build configuration list for PBXNativeTarget "Ruby 2.5" */;
@@ -491,6 +576,7 @@
 				E939EB2021120EE20023B67B /* Ruby 2.5 */,
 				E9EA8AC61DAFC10D0029551B /* Ruby 2.2 */,
 				33CDE5E4182703B100F7C6E8 /* Ruby 2.0 */,
+				6E10E6422BD7AADE00AE1ED4 /* Ruby 3.2 */,
 			);
 		};
 /* End PBXProject section */
@@ -510,6 +596,23 @@
 				33CDE7BA18270A4800F7C6E8 /* RubyUtils.cpp in Sources */,
 				6E7ED20A2A8CFFEF00E4719F /* sqlite3.c in Sources */,
 				6E7ED21A2A8CFFEF00E4719F /* Statement.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E10E6432BD7AADE00AE1ED4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E10E6442BD7AADE00AE1ED4 /* Savepoint.cpp in Sources */,
+				6E10E6452BD7AADE00AE1ED4 /* Exception.cpp in Sources */,
+				6E10E6462BD7AADE00AE1ED4 /* Transaction.cpp in Sources */,
+				6E10E6472BD7AADE00AE1ED4 /* Database.cpp in Sources */,
+				6E10E6482BD7AADE00AE1ED4 /* Column.cpp in Sources */,
+				6E10E6492BD7AADE00AE1ED4 /* Backup.cpp in Sources */,
+				6E10E64A2BD7AADE00AE1ED4 /* rbsqlite3.cpp in Sources */,
+				6E10E64B2BD7AADE00AE1ED4 /* RubyUtils.cpp in Sources */,
+				6E10E64C2BD7AADE00AE1ED4 /* sqlite3.c in Sources */,
+				6E10E64D2BD7AADE00AE1ED4 /* Statement.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -671,7 +774,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Debug (2.0)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Debug (2.0)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.0";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -691,7 +794,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Release (2.0)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Release (2.0)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.0";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -707,11 +810,49 @@
 			};
 			name = Release;
 		};
+		6E10E6612BD7AADE00AE1ED4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Debug (3.2)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/3.2";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdParty//lib/mac/3.2\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "ThirdParty//include/ruby/3.2/mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = sqlite3;
+			};
+			name = Debug;
+		};
+		6E10E6622BD7AADE00AE1ED4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Release (3.2)";
+				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/3.2";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/ThirdParty//lib/mac/3.2\"",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = "ThirdParty//include/ruby/3.2/mac";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_NAME = sqlite3;
+			};
+			name = Release;
+		};
 		E939EB2B21120EE20023B67B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Debug (2.5)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Debug (2.5)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.5";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -732,7 +873,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Release (2.5)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Release (2.5)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.5";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -753,7 +894,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Debug (2.7)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Debug (2.7)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.7";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -770,7 +911,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Release (2.7)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Release (2.7)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.7";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -787,7 +928,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Debug (2.2)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Debug (2.2)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.2";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -808,7 +949,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = YES;
-				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/../Release (2.2)";
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/Release (2.2)";
 				CONFIGURATION_TEMP_DIR = "$(PROJECT_TEMP_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/2.2";
 				DYLIB_COMPATIBILITY_VERSION = "";
 				DYLIB_CURRENT_VERSION = "";
@@ -842,6 +983,15 @@
 			buildConfigurations = (
 				33CDE5EA182703B200F7C6E8 /* Debug */,
 				33CDE5EB182703B200F7C6E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E10E6602BD7AADE00AE1ED4 /* Build configuration list for PBXNativeTarget "Ruby 3.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E10E6612BD7AADE00AE1ED4 /* Debug */,
+				6E10E6622BD7AADE00AE1ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -12,7 +12,7 @@
  */
 #pragma once
 
-#include <Exception.h>
+#include "Exception.h"
 
 namespace SQLite {
 

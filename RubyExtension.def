@@ -6,3 +6,4 @@ EXPORTS
     Init_sqlite3_22
     Init_sqlite3_25
     Init_sqlite3_27
+    Init_sqlite3_32
