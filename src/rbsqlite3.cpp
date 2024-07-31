@@ -149,7 +149,7 @@ extern "C"
 void Init_sqlite3()
 {
 	// Init modules
-	VALUE speckle_connector = rb_define_module("SpeckleConnector");
+	VALUE speckle_connector = rb_define_module("SpeckleConnector3");
 	VALUE speckle_connector_sqlite3 = rb_define_class_under(speckle_connector, "Sqlite3", rb_cObject);
 	VALUE speckle_connector_sqlite3_database = rb_define_class_under(speckle_connector_sqlite3, "Database", rb_cObject);
 
