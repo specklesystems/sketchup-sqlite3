@@ -147,7 +147,6 @@
 		6E7ED2492A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
 		6E7ED24A2A8CFFEF00E4719F /* Transaction.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E7ED1F62A8CFFEF00E4719F /* Transaction.h */; };
 		6EB66A8A2BD7AD220097AA62 /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB66A892BD7AD0D0097AA62 /* Ruby.framework */; };
-		6EB66A8A3434A0340097AA62 /* Ruby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EB66A893434A0340097AA62 /* Ruby.framework */; };
 		E939EB2221120EE20023B67B /* rbsqlite3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7AF182705EB00F7C6E8 /* rbsqlite3.cpp */; };
 		E939EB2321120EE20023B67B /* RubyUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 33CDE7B718270A4800F7C6E8 /* RubyUtils.cpp */; };
 		E939EB2821120EE20023B67B /* RubyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 33CDE7B618270A4800F7C6E8 /* RubyLib.h */; };
@@ -228,7 +227,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EB66A8A3434A0340097AA62 /* Ruby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,6 +947,11 @@
 				HEADER_SEARCH_PATHS = "ThirdParty//include/ruby/3.4/mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-fdeclspec";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = sqlite3;
 			};
 			name = Debug;
@@ -989,6 +992,11 @@
 				HEADER_SEARCH_PATHS = "ThirdParty//include/ruby/3.4/mac";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				OTHER_CFLAGS = "-fdeclspec";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-undefined",
+					dynamic_lookup,
+				);
 				PRODUCT_NAME = sqlite3;
 			};
 			name = Release;
