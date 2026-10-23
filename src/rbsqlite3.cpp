@@ -145,11 +145,10 @@ extern "C" {
 
 
 typedef VALUE(*ruby_method)(...);
-extern "C"
-void Init_sqlite3()
+static void define_sqlite3(const char* namespace_name)
 {
 	// Init modules
-	VALUE speckle_connector = rb_define_module("SpeckleConnector");
+	VALUE speckle_connector = rb_define_module(namespace_name);
 	VALUE speckle_connector_sqlite3 = rb_define_class_under(speckle_connector, "Sqlite3", rb_cObject);
 	VALUE speckle_connector_sqlite3_database = rb_define_class_under(speckle_connector_sqlite3, "Database", rb_cObject);
 
@@ -159,6 +158,12 @@ void Init_sqlite3()
 	rb_define_method(speckle_connector_sqlite3_database, "close", (ruby_method)rbsqlite3_close, 0);
 	rb_define_method(speckle_connector_sqlite3_database, "exec", (ruby_method)rbsqlite3_exec_batch, 1);
 	rb_define_method(speckle_connector_sqlite3_database, "table_exist?", (ruby_method)rbsqlite3_table_exist, 1);
+}
+
+extern "C"
+void Init_sqlite3()
+{
+	define_sqlite3("SpeckleConnector");
 }
 
 extern "C"
@@ -189,4 +194,10 @@ extern "C"
 void Init_sqlite3_32()
 {
 	Init_sqlite3();
+}
+
+extern "C"
+void Init_sqlite3_34()
+{
+	define_sqlite3("SpeckleConnector3");
 }
