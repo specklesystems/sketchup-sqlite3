@@ -76,6 +76,17 @@ This is the single example to see how we can run C/C++ source code behind the Ru
 
 Motivation of this project is to be able to run SQLite3 functions on Runtime for SketchUp Speckle Connector. Currently we provide initialization of database object by given path and it's exec method. We believe that this is a good starting point to add other functionalities to run SQLite3 on SketchUp extensions more extendly. This example also might guide you to create your own extensions with other C/C++ libraries.
 
+## Build for a SketchUp Ruby version
+
+Each SketchUp Ruby ABI gets its own binary, `sqlite3_<major><minor>`, which Ruby loads through `Init_sqlite3_<major><minor>`. The Ruby 3.4 binaries target SketchUp 2027 and define `SpeckleConnector3::Sqlite3`. The older entry points define `SpeckleConnector::Sqlite3`.
+
+1. Vendor the SketchUp SDK headers and libraries for the version, pinned to a `SketchUp/ruby-c-extension-examples` commit: `tools/vendor-ruby-sdk.sh 3.4`.
+2. On Windows, build `Release (3.4)/x64/sqlite3_34.so` with `tools/build-windows.sh 3.4`. If your Visual Studio has only a newer toolset than v143, set `PLATFORM_TOOLSET=v145` for local checks.
+3. On macOS, build `Release (3.4)/sqlite3_34.bundle` (arm64) with `tools/build-mac.sh 3.4`. The bundle does not link `Ruby.framework`. It links with `-undefined dynamic_lookup` and takes the Ruby C API from the process that loads it.
+4. Load the binary into a real Ruby 3.4 and drive a database: `ruby tools/smoke.rb <path>` on Windows, `tools/smoke-mac.sh <path>` on macOS. The macOS script loads the built bundle as is. It first checks the code signature and fails if the bundle links `Ruby.framework`, `libruby`, or the running Ruby's install path. It fails if the bundle's SHA-256 changes during the test.
+
+The `build` workflow runs steps 2 to 4 on every pull request and uploads both binaries as artifacts.
+
 ## Troubleshooting
 
 Please consider that current version only provides initialization of database and call exec method on it. Other functionalities not there yet.
